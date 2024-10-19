@@ -103,14 +103,14 @@ body{
 	background-color:#beb45a;
 	border-radius:0;
 	cursor:pointer;
-	color: #1a1a1a;
+	
 }
 .nav-pills .nav-link.active,.nav-pills .show>.nav-link {
 	color:#fff;
 	background-color:#beb45a;
 	border-radius:0;
 	cursor:pointer;
-	color: #1a1a1a;
+	color: #000;
 }
 .item-column{
 	margin-bottom:0!important;
