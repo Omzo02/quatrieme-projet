@@ -103,12 +103,14 @@ body{
 	background-color:#beb45a;
 	border-radius:0;
 	cursor:pointer;
+	font-size: medium;
 }
 .nav-pills .nav-link.active,.nav-pills .show>.nav-link {
 	color:#fff;
 	background-color:#beb45a;
 	border-radius:0;
 	cursor:pointer;
+	font-size: medium;
 }
 .item-column{
 	margin-bottom:0!important;
