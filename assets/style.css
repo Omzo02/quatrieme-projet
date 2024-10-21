@@ -147,6 +147,7 @@ body{
 	display:block;
 	padding-bottom:100%;
 }
+  
 .gallery-item{
 	position:absolute;
 	width:100%;
@@ -244,6 +245,10 @@ input[type=submit]{
 	#about-me h1,#about-me p{
 		width:100%;
 	}
+	img {
+		width: 100%;
+		height: auto;
+	  }
 }
 @media all and (max-width:1000px){
 	.picture.left::before,.picture.right::before{
@@ -290,6 +295,10 @@ input[type=submit]{
 		bottom:0;
 		right:0;
 	}
+	img {
+		width: 100%;
+		height: auto;
+	  }
 }
 @media all and (max-width:650px){
 	.top-header{
@@ -323,4 +332,15 @@ input[type=submit]{
 	}
 	.picture{width:80%;
 	}
+	img {
+		width: 100%;
+		height: auto;
+	  }
 }
+@media (max-width: 768px) {
+	img {
+		width: 100%;
+		height: auto;
+	  }
+  }
+  
