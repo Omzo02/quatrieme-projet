@@ -147,6 +147,7 @@ body{
 	display:block;
 	padding-bottom:100%;
 }
+
   
 .gallery-item{
 	position:absolute;
@@ -231,6 +232,12 @@ input[type=submit]{
 	background-color:#beb45a;
 	padding:.5em 1em;
 }
+@font-face {
+	font-family: 'MaPolice';
+	src: url('/chemin/vers/police.woff2') format('woff2');
+	font-display: swap;
+  }
+  
 @media all and (max-width:1180px){
 	.picture{
 		flex:2;
