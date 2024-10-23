@@ -23,6 +23,12 @@
 #about,#contact .container,.menu ul,.mg-next,.mg-prev,.service,.top-header,form{
 	display:flex;
 }
+@font-face {
+	font-family: 'Inter';
+	src: url('Inter.woff2') format('woff2');
+	font-display: swap;
+  }
+  
 body{
 	max-width:1920px;
 	margin:auto;
@@ -75,13 +81,13 @@ body{
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: rgba(255, 255, 255, 0.5); /* Un fond blanc semi-transparent pour un meilleur contraste */
-    border-radius: 50%; /* Pour une meilleure présentation */
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 50%; 
 }
 
 .carousel-control-prev,
 .carousel-control-next {
-    color: #000; /* Change la couleur des boutons pour un meilleur contraste */
+    color: #000; 
 }
 .modal-body img{
 	display: flex;
@@ -232,11 +238,6 @@ input[type=submit]{
 	background-color:#beb45a;
 	padding:.5em 1em;
 }
-@font-face {
-	font-family: 'MaPolice';
-	src: url('/chemin/vers/police.woff2') format('woff2');
-	font-display: swap;
-  }
   
 @media all and (max-width:1180px){
 	.picture{
