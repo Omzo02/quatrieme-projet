@@ -62,7 +62,7 @@
 	<meta name="keywords" content="photographe, bordeaux, photographie de mariage, shooting photo">
 	<meta name="robots" content="index, follow">
 	<link rel="canonical" href="https://omzo02.github.io/quatrieme_projet/">
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -126,56 +126,64 @@
 			  </div>
 				<div class="carousel-inner">
 				<div class="carousel-item active">
-				  <img
-				  srcset="
-				  ./assets/images/slider/ryoji-iwata-small.webp 400w,
-                  ./assets/images/slider/ryoji-iwata-medium.webp 800w,
-                  ./assets/images/slider/ryoji-iwata-large.webp 1200w,
-                  ./assets/images/slider/ryoji-iwata-original.webp 1900w
-				 "
-				  sizes="
-        				(max-width: 650px) 100vw,
-        				(max-width: 768px) 80vw,
-        				(max-width: 1000px) 50vw,
-        				(max-width: 1180px) 40vw,
-        				33vw
-    					"
-				class="d-block w-100" 
-				alt="un homme traversant un passage piéton dans une ville"
-				  />
-				</div>
-				<div class="carousel-item">
-				  <img
-				  srcset="
-				  ./assets/images/slider/nicholas-green-small.webp 400w,
-				  ./assets/images/slider/nicholas-green-medium.webp 800w,
-				  ./assets/images/slider/nicholas-green-large.webp 1200w,
-				  ./assets/images/slider/nicholas-green-original.webp 1900w
+					<img
+					srcset="
+					  ./assets/images/slider/ryoji-iwata-original.webp 1900w,
+					  ./assets/images/slider/ryoji-iwata-large.webp 1200w,
+					  ./assets/images/slider/ryoji-iwata-medium.webp 800w
 					"
-				sizes="(max-width: 650px) 100vw,
-				(max-width: 768px) 80vw,
-				(max-width: 1000px) 50vw,
-				(max-width: 1180px) 40vw,
-				33vw"
-				class="d-block w-100" 
-				alt="le marié et la mariée entrain de danser en s'embrassant"
-				  />
-				</div>
-				<div class="carousel-item">
-				  <img
-				  srcset="
-				  ./assets/images/slider/edward-cisneros-small.webp 400w,
-				  ./assets/images/slider/edward-cisneros-medium.webp 800w,
-				  ./assets/images/slider/edward-cisneros-large.webp 1200w,
-				  ./assets/images/slider/edward-cisneros-medium.webp 1900w
-					"
-					sizes="(max-width: 650px) 100vw,
-					(max-width: 768px) 80vw,
-					(max-width: 1000px) 50vw,
-					(max-width: 1180px) 40vw,
-					33vw"
+					sizes="
+      					(max-width: 650px) 100vw,  
+      					(max-width: 750px) 90vw,  
+      					(max-width: 1000px) 80vw, 
+      					(max-width: 1180px) 70vw,  
+      					60vw                      
+   						 "
+					src="./assets/images/slider/ryoji-iwata-small.webp"
 					class="d-block w-100"
-					alt="des jeunes entain de s'amuser dans un concert"
+					alt="Un homme traversant un passage piéton dans une ville"
+					
+				  />
+				</div>
+				<div class="carousel-item">
+				  <img
+					srcset="
+					  ./assets/images/slider/nicholas-green-original.webp 1900w,
+					  ./assets/images/slider/nicholas-green-large.webp 1200w,
+					  ./assets/images/slider/nicholas-green-medium.webp 800w
+					"
+					sizes="
+      					(max-width: 650px) 100vw,  
+      					(max-width: 750px) 90vw,   
+      					(max-width: 1000px) 80vw, 
+      					(max-width: 1180px) 70vw,  
+      					60vw                      
+   						 "
+					src="./assets/images/slider/nicholas-green-small.webp"
+					class="d-block w-100"
+					alt="Des jeunes en train de s'amuser dans un concert"
+				
+				  />
+				</div>
+				<div class="carousel-item">
+				  <img
+					srcset="
+					  ./assets/images/slider/edward-cisneros-original.webp 1900w,
+					  ./assets/images/slider/edward-cisneros-large.webp 1200w,
+					  ./assets/images/slider/edward-cisneros-medium.webp 800w
+					"
+					sizes="
+      					(max-width: 650px) 100vw,  
+      					(max-width: 750px) 90vw,   
+      					(max-width: 1000px) 80vw,  
+      					(max-width: 1180px) 70vw,  
+      					60vw                      
+   						 "
+					
+					src="./assets/images/slider/edward-cisneros-small.webp"
+					class="d-block w-100"
+					alt="Le marié et la mariée en train de danser en s'embrassant"
+					
 				  />
 				</div>
 			  </div>
@@ -204,7 +212,7 @@
 		  </section>
 		  <section id="about">
 			<div class="picture left">
-			  <img src="./assets/images/nina.webp" alt="Nina Carducci" />
+			  <img src="./assets/images/nina.webp" width="375" height="375" alt="Nina Carducci" />
 			</div>
 			<div id="about-me">
 			  <h2 class="about-me__title">A propos de moi</h2>
@@ -380,7 +388,7 @@
         </div>
       </div>
     </footer>
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
